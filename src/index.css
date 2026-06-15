@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Elegant Custom Scrollbar Styling designed for the Sleek Interface Theme */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.4); /* Tailwind slate-900/40 opacity */
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(99, 102, 241, 0.35); /* Indigo-500/35 opacity thumb */
+  border-radius: 9999px;
+  transition: background 0.2s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 102, 241, 0.7); /* Bright Indigo-500 hover state */
+}
+
+/* Firefox support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(99, 102, 241, 0.35) rgba(15, 23, 42, 0.4);
+}
+

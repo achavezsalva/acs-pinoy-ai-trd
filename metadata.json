@@ -1,0 +1,6 @@
+{
+  "name": "ACS.PINOY.AI.TRADING",
+  "description": "An elegant, high-performance landing page and interactive simulator for AI-powered cryptocurrency and stock trading.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
